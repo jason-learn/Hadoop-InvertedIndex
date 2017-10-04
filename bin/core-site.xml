@@ -17,7 +17,7 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
-<!-- 鎸囧畾HDFS鑰佸ぇ锛坣amenode锛夌殑閫氫俊鍦板潃 -->
+<!-- 指定HDFS（namenode）的通信地址 -->
         <property>
         <name>hadoop.tmp.dir</name>
         <value>file:/usr/local/hadoop/tmp</value>
